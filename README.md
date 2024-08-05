@@ -1,2 +1,1 @@
-# PlayMakersShifumi
-A Small ReactJS app to play shifumi
+please excuse the PNGs, I made them on the fly

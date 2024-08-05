@@ -1,0 +1,42 @@
+/* General Page Styles */
+body {
+  font-family: 'Arial Rounded MT Bold', Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-size: 18px;
+  /* Increase base font size */
+}
+
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+.App {
+  text-align: center;
+  background-color: #ffffff;
+  padding: 50px;
+  /* Increase padding */
+  border-radius: 15px;
+  /* Increase border-radius */
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+  max-width: 600px;
+  /* Increase the width */
+  width: 100%;
+  transform: scale(1.0);
+  transform-origin: center;
+}
+
+h1 {
+  margin-bottom: 40px;
+  font-size: 28px;
+  /* Increase font size */
+  color: #333;
+}

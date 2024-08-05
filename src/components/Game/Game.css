@@ -1,0 +1,74 @@
+/* Flex Container for Buttons */
+.rps-buttons {
+    display: flex;
+    /* Ensures that the buttons are laid out in a row */
+    justify-content: center;
+    /* Center the buttons horizontally within the container */
+    align-items: center;
+    /* Aligns the buttons vertically centered within the container */
+    gap: 20px;
+    /* Adds space between the buttons */
+    margin-bottom: 30px;
+    
+}
+/* Wrapper for the game and scoreboard */
+.game-wrapper {
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+    background-color: #599ff0;
+}
+
+.game-container {
+    border-radius: 15px;
+    /* This rounds the corners */
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    max-width: 500px;
+    /* Set a maximum width for the game container */
+    margin: 0 auto;
+    /* Center the game container */
+    overflow: hidden;
+    /* Hide anything that overflows the container */
+        background-color: #599ff0;
+}
+
+/* Outcome Display */
+.outcome {
+    margin-top: 20px;
+}
+
+.outcome h2 {
+    margin: 10px 0;
+    font-weight: normal;
+    color: #16a085;
+}
+
+.outcome h2.draw {
+    color: #f39c12;
+}
+
+.outcome h2.win {
+    color: #27ae60;
+}
+
+.outcome h2.loss {
+    color: #e74c3c;
+}
+
+/* Responsive Design */
+@media (max-width: 512px) {
+    .App {
+        padding: 20px;
+    }
+
+    .rps-buttons {
+        flex-direction: column;
+        /* Stack buttons vertically on small screens */
+        align-items: center;
+    }
+}

@@ -1,0 +1,31 @@
+/* Button Styling */
+.custom-button {
+    background-color: #3498db;
+    border: none;
+    border-radius: 50%;
+    /* Make the button round */
+    cursor: pointer;
+    padding: 25px;
+    /* Increase padding */
+    transition: background-color 0.3s ease;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 128px;
+    /* Set button width */
+    height: 128px;
+    /* Set button height */
+}
+
+.custom-button:hover {
+    background-color: #2980b9;
+}
+
+/* Image inside the Button */
+.choice-image {
+    width: 100px;
+    /* Set image size */
+    height: 100px;
+    /* Set image size */
+}
